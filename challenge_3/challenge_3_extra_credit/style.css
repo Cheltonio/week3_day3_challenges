@@ -18,14 +18,12 @@ img {
 }
 
 #a,#e {
-	border: 1px solid red;
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
 }
 
 #b {
-	border: 1px solid red;
 	display: flex;
 	flex-flow: column;
 	justify-content:space-between;
