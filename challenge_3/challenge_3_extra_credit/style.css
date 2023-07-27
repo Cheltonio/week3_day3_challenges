@@ -11,4 +11,27 @@ img {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+	height: 516px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+#a,#e {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+#b {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column;
+	justify-content:space-between;
+}
+
+#c,#d {
+	display: flex;
+	justify-items: space-evenly;
 }
